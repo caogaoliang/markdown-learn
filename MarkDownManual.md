@@ -1,59 +1,112 @@
-# markdown-learn
-> **Author： caogaoliang**
-> *date: 2023/06*  
+# MarkDownManual
 
-## 一、标题
+> **Author： DragonZZ**
+
+> **date: 2023/4/11**  
+
+## 1. Markdown 标题
 
 ```Markdown
 # 一级标题
-## 二级标题
-### 三级标题
-#### 四级标题
-##### 五级标题
-###### 六级标题
+
 ```
 
 # 一级标题
+
+---
+
+```Markdown
 ## 二级标题
+
+```
+
+## 二级标题
+
+---
+
+```Markdown
 ### 三级标题
+
+```
+
+### 三级标题
+
+---
+
+```Markdown
 #### 四级标题
+
+```
+
+#### 四级标题
+
+---
+
+```Markdown
 ##### 五级标题
+
+```
+
+##### 五级标题
+
+---
+
+```Markdown
+###### 六级标题
+
+```
+
 ###### 六级标题
 
 ---
 
-## 二、markdown 文本
+## 2. Markdown 文本
 
 ```Markdown
-*斜体字体***粗体字体**
-***粗斜体字体***
+*斜体文本*
+
 ```
 
-*斜体字体*
-**粗体字体**
-***粗斜体字体***
+*斜体文本*
 
 ---
 
-## 三、列表
+```Markdown
+**粗体文本**
+
+```
+
+**粗体文本**
+
+---
+
+```Markdown
+***粗斜体文本***
+
+```
+
+***粗斜体文本***
+
+---
+
+## 3. Markdown 列表
+
+* 无序列表
 
 ```Markdown
 * 无序列表 1
-    * 无序列表 1.1
 * 无序列表 2
     * 无序列表 2.1
-    * 无序列表 2.2
-        * 无序列表 2.2.1
 ```
 
 * 无序列表 1
-    * 无序列表 1.1
 * 无序列表 2
     * 无序列表 2.1
     * 无序列表 2.2
-        * 无序列表 2.2.1
 
 ---
+
+* 有序列表
 
 ```Markdown
 1. 有序列表 1
@@ -61,34 +114,40 @@
 3. 有序列表 3
     3.1 有序列表
 ```
+
 1. 有序列表 1
-    1. 有序列表 1.1
 2. 有序列表 2
 3. 有序列表 3
     1. 有序列表 3.1
     2. 有序列表 3.2
 
----
 
-## 四、网页链接
+## 4. Markdown 链接
 
 ```Markdown
 [链接名称](链接地址)
-<链接地址>
+
 ```
 
 [百度一下](https://www.baidu.com)
 
+---
+
+```Markdown
+<链接地址>
+
+```
+
 <https://www.baidu.com>
 
----
 
-## 五、markdown 引用
+## 5. Markdown 引用
 
 ```Markdown
 > 一级引用
 > 二级引用
 > 三级引用
+
 ```
 
 > 一级引用
@@ -110,38 +169,35 @@
 >> 二级引用
 >>> 三级引用
 
----
-
-## 六、markdown 分割线
+## 6. Markdown 分割线
 
 ```Markdown
 ---
+
 ```
 
 ---
 
-## 七、markdown 删除线
+## 7. Markdown 删除线
 
 ```Markdown
 ~~被删除的内容~~
+
 ```
 
 ~~被删除的内容~~
 
----
 
-
-## 八、markdown 下划线
+## 8. Markdown 下划线
 
 ```Markdown
 <u>下划线</u>
+
 ```
 
 <u>下划线</u>
 
----
-
-## 九、markdown 表格
+## 9. Markdown 表格
 
 ```Markdown
 | var1 | var2 | var3 |
@@ -157,20 +213,18 @@
 | 456 | 456 | 456 |
 | 789 | 789 | 789 |
 
----
 
-## 十、markdown 图片
+## 10. Markdown 图片
 
 ```Markdown
 ![图片描述](图片地址)
 
 ```
 
-![这是一张图片](./pic.jfif)
+![桌面壁纸](/home/dragonzz/Pictures/SavedPictures/1335230_screenshots_20211031215419_1.jpg)
 
----
 
-## 十一、markdown 脚注
+## 11. Markdown 脚注
 
 ```Markdown
 链接:[文字](链接)
@@ -182,9 +236,21 @@
 
 脚注 : [文字](脚注解释 "脚注名字")
 
----
+## 12. Markdown 代码块
 
-## 十二、markdown 代码块
+```
+code
+
+、、、cpp
+#inlucde<iostream>
+using namespace std;
+int main(){
+    cout << "HelloWorld" << endl;
+    return 0;
+}
+、、、
+
+```
 
 ```cpp
 #inlucde<iostream>
@@ -193,13 +259,5 @@ int main(){
     cout << "HelloWorld" << endl;
     return 0;
 }
+
 ```
-
-```python
-import numpy as np
-
-a = np.array([[1,2,3],[3,4,5],[3,5,7]])
-print(a+5)
-```
-
----
