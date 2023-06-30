@@ -9,3 +9,4 @@
 7. 输入`git commit -m "提交信息"`命令，将文件提交到 Git 仓库，-m表示提交信息，提交信息写在双引号内
 8. 使用`git push markdown-origin master`命令将将本地仓库修改（或者添加）的内容提交到远程仓库
 9. 输入`git status`命令，查看仓库的状态
+10. 使用`git clone`命令克隆github上其他项目的源码
