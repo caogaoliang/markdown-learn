@@ -1,5 +1,5 @@
 # Git Manual
-
+****
 ### 在本地初始化仓库
 
 1. 进入项目目录 `cd /e/git-workspace/markdown-learn`
@@ -13,6 +13,14 @@
 ### 克隆远程仓库
 
 - 执行`git clone <url>` 命令克隆远程仓库，例如执行`git clone https://github.com/caogaoliang/markdown-learn.git`，可通过额外的参数自定义本地仓库的名字：`git clone <url> [newname]`
+- 无需再进行 `git init` 初始化仓库了
+- 执行 `git add <files>` 和  `git commit -m '提交信息'` 
+- `git push origin master` 将本地仓库的内容push到远程仓库，在第一次向远程仓库提交代码的时候，需要输入账号及密码进行验证
+
+- `git remote add <remote-name> <remote-url>` 其中 `<remote-name>` 为远程仓库设置的名称，`<remote-url>` 为远程仓库的 URL ，如：`git remote add origin-cgl https://gitee.com/cao-gaoliang/hospital-guide-mini-manager.git`，通过这种方式可以绑定**多个远程仓库**。
+- 通过`git remote` 查看已添加的远程仓库
+- `git push <remote-name> <branch-name>` 通过指定 `<remote-name>` 即远程仓库的名字，将更改推送到指定的仓库。如：`git push origin-cgl master`
+
 
 
 ### 检查当前文件状态
